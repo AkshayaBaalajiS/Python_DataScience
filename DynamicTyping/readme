@@ -1,0 +1,42 @@
+In Python:
+
+Variables do NOT have types.
+Objects have types.
+Variables are just names bound to objects.
+
+C++
+int x = 10;
+
+x has type int
+Memory is allocated for int
+You cannot later do:
+x = "hello";   // ❌ compile error
+Because x is strongly typed.
+
+
+
+Python
+x = 10
+x = "hello"
+
+This is valid.
+
+Why?
+
+Because:
+	x is just a name
+	It is bound to an object
+	That object has the type
+
+
+
+x = 10
+
+Step 1:
+	Python creates an integer object 10
+	That object lives in heap memory
+
+Step 2:
+	The name x is created
+	x now references that object
+
